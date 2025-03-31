@@ -1,0 +1,56 @@
+
+h1{
+    color: red;
+    text-align: center;
+    
+}
+ol{
+    color: red;
+    
+    font-weight: 1000%;
+}
+body{
+    background-color: black;
+}
+h2{
+    color: aqua;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.box1{
+    flex-basis: 100%;
+}
+.box2{
+    flex-basis: 100%;
+}
+.box3{
+    flex-basis: 100%;
+}
+.box4{
+    flex-basis: 100%;
+}
+.box5{
+    flex-basis: 100%;
+}
+@media screen and (max-width:800px) {
+
+    .box1{
+        flex-basis: 100;
+    }
+    .box2{
+        flex-basis: 100;
+    }
+    .box3{
+        flex-basis: 100;
+    }
+    .box4{
+        flex-basis: 100;
+    }
+    .box5{
+        flex-basis: 100;
+    }
+    
+}
